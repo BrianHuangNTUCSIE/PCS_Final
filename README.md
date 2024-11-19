@@ -9,7 +9,7 @@ An analytical model of multihop connectivity of inter-vehicle communication syst
 
 Wen-Long Jin; Wilfred W. Recker
 
-IEEE Transaction on Wireless communication, vol. 9, no. 1, January 2010
+IEEE Transaction on Wireless Communication, vol. 9, no. 1, January 2010
 
 https://ieeexplore.ieee.org/document/5374054
 
