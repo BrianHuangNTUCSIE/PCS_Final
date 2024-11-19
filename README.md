@@ -6,6 +6,7 @@ This is the Github repository of our final project. We implement the recursive f
 
 ## Paper
 An analytical model of multihop connectivity of inter-vehicle communication systems
+Wen-Long Jin; Wilfred W. Recker
 
 IEEE Transaction on Wireless communication, vol. 9, no. 1, January 2010
 
