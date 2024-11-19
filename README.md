@@ -5,8 +5,8 @@
 This is the Github repository of our final project. We implement the recursive functions in the paper with C++ and plot the result with Python.
 
 ## Figures
-![result](https://hackmd.io/_uploads/S1o668qfJe.png)
-![result](https://hackmd.io/_uploads/HkNkA8qMyg.png)
+![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result1.png?raw=true)
+![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result2.png?raw=true)
 
 
 ## Paper
