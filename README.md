@@ -13,10 +13,6 @@ Published in: IEEE Transactions on Wireless Communications (Volume: 9, Issue: 1,
 
 https://ieeexplore.ieee.org/document/5374054
 
-## Figures
-![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result1.png?raw=true)
-![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result2.png?raw=true)
-
 ## Prerequisite
 * Install python dependencies:
 ```
@@ -34,3 +30,7 @@ bash run1.sh
 # plot Fig. 2 in the paper
 bash run2.sh
 ```
+
+## Figures
+![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result1.png?raw=true)
+![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result2.png?raw=true)
