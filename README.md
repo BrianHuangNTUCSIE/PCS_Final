@@ -1,8 +1,3 @@
----
-title: NTU 2024 PCS Final Project
-
----
-
 # NTU 2024 PCS Final Project
 
 
