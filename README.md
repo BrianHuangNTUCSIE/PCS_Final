@@ -29,9 +29,19 @@ bash run1.sh
 
 # plot Fig. 2 in the paper
 bash run2.sh
+
+# simulate Fig. 1
+bash run3.sh
+
+# simulate Fig. 2
+bash run4.sh
 ```
 
 ## Figures
+### Theoretical
 ![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result1.png?raw=true)
 ![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result2.png?raw=true)
 
+### Experimental
+![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result3.png?raw=true)
+![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result4.png?raw=true)
