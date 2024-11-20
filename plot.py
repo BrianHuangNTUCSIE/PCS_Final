@@ -5,7 +5,7 @@ import numpy as np
 plt.figure(figsize=(10, 6))
 
 # List of data files to read
-data_files = ["data1.txt", "data2.txt", "data3.txt", "data4.txt"]
+data_files = ["100m", "200m", "500m", "1000m"]
 
 # Loop over each file and plot the data
 for file_name in data_files:
@@ -20,7 +20,7 @@ for file_name in data_files:
             y_values.append(y)
 
     # Plot the data for the current file
-    plt.plot(x_values, y_values, marker='o', linestyle='-', label=f'Plot from {file_name}')
+    plt.plot(x_values, y_values, marker='o', linestyle='-', label=f'{file_name}')
 
 # Step 2: Customize the plot
 plt.title("measure 6", fontsize=14)
