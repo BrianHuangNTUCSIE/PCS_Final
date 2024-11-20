@@ -42,8 +42,7 @@ int main(int argc, char* argv[]) {
         mu = atof(argv[2]);    // Convert second argument to double
         diff = atof(argv[3]);  // Convert third argument to double
         times = atoi(argv[4]);
-    }
-    else{
+    } else {
         printf("Usage: %s <range> <mu> <diff> <times>\n", argv[0]);
         return 1; // Exit with error code
     }
@@ -63,43 +62,40 @@ int main(int argc, char* argv[]) {
 
     // Run experiments in parallel using OpenMP
     #pragma omp parallel for
-    for(int i = 0; i < times; i++) {
+    for (int i = 0; i < times; i++) {
         vector<bool> equipped(size, false);
-        for(int j = 0; j < size; j++) {
+        for (int j = 0; j < size; j++) {
             double random_prob = dis(gen);  // Generate random number between 0 and 1
             
             if (random_prob < mu) {
                 equipped[j] = true;
-            }
-            else {
+            } else {
                 equipped[j] = false;
             }
         }
 
         vector<bool> can_reach(size, false);
         double farthest = 0;
-        for(int j = 0; j < size; j++) {
-            if(x[j] <= farthest + range){
+        for (int j = 0; j < size; j++) {
+            if (x[j] <= farthest + range) {
                 can_reach[j] = true;
-                if(equipped[j]){
+                if (equipped[j]) {
                     farthest = x[j];
                 }
-            }
-            else{
+            } else {
                 can_reach[j] = false;
             }
         }
 
-        // Use critical section to safely update the total array across threads
-        #pragma omp parallel for
-        for(int j = 0; j < size; j++) {
+        // Safely update the total array
+        for (int j = 0; j < size; j++) {
             #pragma omp atomic
             total[j] += (can_reach[j] ? 1 : 0);
         }
     }
 
     // Print the results
-    for(int i = 0; i < size; i++) {
+    for (int i = 0; i < size; i++) {
         printf("%lf %lf\n", x[i], (static_cast<double>(total[i])) / times);
     }
 
