@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This is the Github repository of our final project. We implement the recursive functions in the paper with C++ and plot the result with Python.
+This is the GitHub repository for our final project. We implemented the recursive functions from the paper in C++ and plotted the results using Python.
 
 ## Paper
 An analytical model of multihop connectivity of inter-vehicle communication systems
