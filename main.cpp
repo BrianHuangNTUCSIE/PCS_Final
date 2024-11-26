@@ -25,7 +25,6 @@ double p_node_map[SIZE+10][SIZE+10];
 double p_end_map[SIZE+10][SIZE+10];
 double p_hop_map[SIZE+10][SIZE+10][SIZE+10];
 
-// Function to generate an arithmetic sequence with a difference of 26
 void generate_sequence() {
     double start = 0;
     while(start < MAX){
