@@ -32,10 +32,7 @@ bash run2.sh
 ```
 
 ## Figures
-### Theoretical
+### Figure 1.
 ![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result1.png?raw=true)
+### Figure 2.
 ![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result2.png?raw=true)
-
-### Experimental
-![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result3.png?raw=true)
-![alt text](https://github.com/BrianHuangNTUCSIE/PCS_Final/blob/main/result4.png?raw=true)
